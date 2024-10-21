@@ -23,7 +23,7 @@ jobs:
           node-version: 20.16.0
 
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: npm install -g pnpm@8.6.2
   
       - name: Install dependencies
         run: pnpm install
